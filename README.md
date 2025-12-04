@@ -90,17 +90,13 @@ graph LR
    chmod +x transcribe.sh
    ```
 
-4. **Run the backend server** (in one terminal)
+4. **Run the application**
    ```bash
-   npm run server
+   npm start
    ```
-   Server will start on `http://localhost:3001`
-
-5. **Run the frontend dev server** (in another terminal)
-   ```bash
-   npm run dev
-   ```
-   App will be available at `http://localhost:3000`
+   This command runs both the backend and frontend concurrently.
+   - Frontend: `http://localhost:3000`
+   - Backend: `http://localhost:3001`
 
 ### First Run
 
